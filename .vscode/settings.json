@@ -6,10 +6,20 @@
     "cypress/support/step_definitions/**/*.js",
     "cypress/support/step_definitions/**/*.ts"
   ],
+  "cucumberautocomplete.customParameters": [],
   "cucumberautocomplete.steps": [
-    "cypress/support/step_definitions/**/*.js",
-    "cypress/support/step_definitions/**/*.ts"
+    "cypress/support/step_definitions/exampleSteps.js"
   ],
+  "cucumberautocomplete.formatConfOverride": {
+    "Scenario": 0,
+    "Example": 0,
+    "Feature": 0,
+    "Given": 0,
+    "When": 0,
+    "Then": 0,
+    "And": 0,
+    "But": 0
+  },
   "cucumberautocomplete.syncfeatures": "cypress/integration/**/*.feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "cucumberautocomplete.strictGherkinValidation": true,
@@ -19,6 +29,20 @@
     "strings": true
   },
   "files.associations": {
-    "*.feature": "cucumber"
+    "*.feature": "plaintext"
+  },
+  "workbench.editorAssociations": {
+    "*.feature": "default"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
   }
 }
