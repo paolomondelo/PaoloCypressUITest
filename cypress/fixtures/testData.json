@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "users": [
+    {
+      "email": "test1@example.com",
+      "name": "User One"
+    },
+    {
+      "email": "test2@example.com",
+      "name": "User Two"
+    }
+  ],
+  "credentials": [
+    {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    {
+      "username": "testuser",
+      "password": "testpass"
+    }
+  ]
+}
