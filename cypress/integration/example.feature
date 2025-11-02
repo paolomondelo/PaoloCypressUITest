@@ -1,6 +1,6 @@
 Feature: Example Feature
 
-  Scenario: Validate that the page should contain example after login
+  Scenario Outline: Validate that the page should contain example after login
    Given I visit the website
    When I fill in the email with "<username>"
    And I fill in the password with "<password>"
