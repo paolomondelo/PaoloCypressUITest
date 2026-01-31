@@ -1,6 +1,7 @@
 {
     "recommendations": [
-        "alexkrechik.cucumberautocomplete"
+        "alexkrechik.cucumberautocomplete",
+        "CucumberOpen.cucumber-official"
     ],
     "unwantedRecommendations": []
 }

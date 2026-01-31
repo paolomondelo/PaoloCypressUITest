@@ -1,4 +1,4 @@
 {
   "features": ["cypress/integration/**/*.feature"],
-  "glue": ["cypress/support/step_definitions/**/*.js"]
+  "glue": ["cypress/support/step_definitions/**/*.{js,ts}"]
 }

@@ -2,6 +2,9 @@
   "name": "cypress-cucumber-tests",
   "version": "1.0.0",
   "description": "Cypress tests with Cucumber support",
+  "overrides": {
+    "@cucumber/gherkin": "32.1.0"
+  },
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
@@ -11,7 +14,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^23.2.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "@types/node": "^24.9.2",
-    "cypress": "^15.5.0",
+    "cypress": "^15.9.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

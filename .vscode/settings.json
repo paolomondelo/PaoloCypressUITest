@@ -1,15 +1,8 @@
 {
-  "cucumber.features": [
-    "cypress/integration/**/*.feature"
-  ],
-  "cucumber.glue": [
-    "cypress/support/step_definitions/**/*.js",
-    "cypress/support/step_definitions/**/*.ts"
-  ],
+  "cucumber.features": ["cypress/integration/**/*.feature"],
+  "cucumber.glue": ["cypress/support/step_definitions/**/*.ts"],
   "cucumberautocomplete.customParameters": [],
-  "cucumberautocomplete.steps": [
-    "cypress/support/step_definitions/exampleSteps.js"
-  ],
+  "cucumberautocomplete.steps": ["cypress/support/step_definitions/**/*.ts"],
   "cucumberautocomplete.formatConfOverride": {
     "Scenario": 0,
     "Example": 0,
@@ -29,7 +22,7 @@
     "strings": true
   },
   "files.associations": {
-    "*.feature": "plaintext"
+    "*.feature": "feature"
   },
   "workbench.editorAssociations": {
     "*.feature": "default"

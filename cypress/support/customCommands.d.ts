@@ -1,5 +1,5 @@
 declare namespace Cypress {
-    interface Chainable<Subject> {
-        
+  interface Chainable<Subject> {
+    login(username: string, password: string): Chainable<void>;
   }
 }
